@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:background="#E0E0E0">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:src="@drawable/iconback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/black" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Bookmark"
+            android:textColor="#333333"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/Thongbao"
+            android:src="@drawable/notification"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="Notify"
+            android:backgroundTint="@color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/mipham3"
+            android:scaleType="centerCrop"
+            android:contentDescription="Product Image"
+            android:layout_marginEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sửa rửa mặt"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông tin bổ sung về sản phẩm"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_marginTop="4dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="start">
+
+                <!-- Nút Xem thông tin -->
+                <ImageView
+                    android:id="@+id/btnViewInfo1"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Xem thông tin"
+                    android:src="@drawable/delete"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="4dp" />
+
+                <!-- Nút Xóa -->
+                <ImageView
+                    android:id="@+id/btnDelete1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Xóa"
+                    android:src="@drawable/show"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/mp1"
+            android:scaleType="centerCrop"
+            android:contentDescription="Product Image"
+            android:layout_marginEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mô tả sản phẩm"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông tin bổ sung về sản phẩm"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_marginTop="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="start">
+
+                <!-- Nút Xem thông tin -->
+                <ImageView
+                    android:id="@+id/btnViewInfo2"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Xem thông tin"
+                    android:src="@drawable/delete"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="4dp" />
+
+                <!-- Nút Xóa -->
+                <ImageView
+                    android:id="@+id/btnDelete2"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Xóa"
+                    android:src="@drawable/show"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:src="@drawable/mipham3"
+            android:scaleType="centerCrop"
+            android:contentDescription="Product Image"
+            android:layout_marginEnd="8dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mô tả sản phẩm"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông tin bổ sung về sản phẩm"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_marginTop="4dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="start">
+
+                <!-- Nút Xem thông tin -->
+                <ImageView
+                    android:id="@+id/btnViewInfo3"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Xem thông tin"
+                    android:src="@drawable/delete"
+                    android:textColor="@color/white"
+                    android:layout_marginEnd="4dp" />
+
+                <!-- Nút Xóa -->
+                <ImageView
+                    android:id="@+id/btnDelete3"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Xóa"
+                    android:src="@drawable/show"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:elevation="4dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Nút Home -->
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="Home"
+            android:src="@drawable/home" />
+
+        <!-- Khoảng trống -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Nút Trở về -->
+        <ImageButton
+            android:id="@+id/btnBack111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:contentDescription="Trở về"
+            android:src="@drawable/iconback" />
+    </LinearLayout>
+
+</LinearLayout>
